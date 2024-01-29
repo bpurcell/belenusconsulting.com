@@ -3230,7 +3230,7 @@ input, select, textarea {
 			left: 0;
 			position: absolute;
 			top: 0;
-			width: 50vw;
+			width: 50vw; 
 			z-index: -1;
 		}
 
