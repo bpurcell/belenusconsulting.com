@@ -1,13 +1,12 @@
-/*
-	Paradigm Shift by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 (function($) {
-
+	
 	var	$window = $(window),
 		$body = $('body');
+
+
+		
 
 	// Breakpoints.
 		breakpoints({
@@ -22,10 +21,57 @@
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
+
+			fetch('pageContent.json')
+			.then(response => response.json())
+			.then(data => {
+				window.setTimeout(function() {
+					$body.removeClass('is-preload');
+				}, 100);
+				// Use the data here
+				var pageContent = data;
+				function loopJSONandPrint(jsonObj, depth, parentKey = "") {
+					// Base case: stop recursion when depth reaches 0
+					if (depth === 0) {
+						return;
+					}
+		
+					// Loop over each key-value pair in the JSON object
+					for (let key in jsonObj) {
+		
+						// Combine the parent key with the current key
+						const combinedKey = parentKey ? `${parentKey}-${key}` : key;
+		
+						// Build the key-value pair with combined key names
+						const keyValue = `${combinedKey}: ${jsonObj[key]}`;
+		
+						// Recursively call the function for nested objects
+						if (typeof jsonObj[key] === "object") {
+							loopJSONandPrint(jsonObj[key], depth - 1, combinedKey);
+		
+						} else {
+							
+							document.getElementById(combinedKey).innerHTML = jsonObj[key];
+							$('#'+combinedKey).html(jsonObj[key]);
+						}
+					}
+				}
+
+				// Check if query parameter version exists
+				const urlParams = new URLSearchParams(window.location.search);
+				const version = urlParams.get('version');
+				if (version) {
+					pageContent = data[version];
+					loopJSONandPrint(pageContent)
+					console.log(pageContent)
+				}
+			})
+			.catch(error => {
+				console.error('Error:', error);
+			});
+
 		});
+
 
 	// Hack: Enable IE workarounds.
 		if (browser.name == 'ie')
@@ -83,4 +129,5 @@
 		}
 
 
+		
 })(jQuery);

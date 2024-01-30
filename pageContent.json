@@ -1,0 +1,119 @@
+{
+  "v1": {
+    "homePage": {
+      "title": "Real-World AI Solutions for Non-Profits",
+      "subtitle": "Belenus Consulting: Bringing AI to Non-Profits in New England",
+      "description": "Welcome to Belenus Consulting! We’re all about using AI to solve real problems for non-profits. Think of us as your guide to making sense of AI and using it to do more good. With our experience in technology and a knack for practical solutions, we’re here to help your non-profit shine brighter."
+    },
+    "about": {
+      "title": "Tech Meets Practicality",
+      "description": "Belenus Consulting is where deep tech know-how meets a drive for positive change. Our founder’s been in the tech game for over 20 years, building successful businesses along the way. But what really drives us is using our tech smarts to help non-profits in New England – especially with AI."
+    },
+    "services": {
+      "title": "Practical AI Services for Your Needs",
+      "items": [
+        "AI Strategy Made Simple: We help you figure out how AI can work for you.",
+        "Custom AI Tools: From data crunching to smart tools, we build what you need.",
+        "Easy AI Training: We teach your team how to use AI without the jargon.",
+        "Eco-Friendly AI: Using AI to boost your green efforts.",
+        "Making Your Tech Smarter with AI: Upgrading your existing tools with AI to get more done."
+      ]
+    },
+    "impact": {
+      "title": "Making a Difference with AI",
+      "description": "Our mission is to get AI working hard for your non-profit. We focus on making things smoother, getting you more engaged with supporters, and improving your services – all through the smart use of AI."
+    },
+    "contact": {
+      "title": "Let's Make Things Happen with AI",
+      "description": "Interested in seeing how AI can up your non-profit game? Get in touch with us at Belenus Consulting. Let’s talk about making tech work for you."
+    }
+  },
+  "v2": {
+    "homePage": {
+      "title": "Next-Gen AI Solutions for Non-Profits",
+      "subtitle": "Belenus Consulting: Leading Non-Profits Into the Tech Future",
+      "description": "Welcome to Belenus Consulting, the hub where AI innovation meets non-profit ambition. We're excited to guide you through the world of AI, transforming how you operate, engage, and impact. Our team combines deep tech expertise with a passion for empowering non-profits, ensuring you're not just keeping up but leading the way in the new tech era."
+    },
+    "about": {
+      "title": "Technology, Transformed for Good",
+      "description": "Belenus Consulting bridges the gap between advanced technology and social change. With over two decades in tech and a heart set on empowering non-profits, our founder brings both the wisdom of experience and the excitement of innovation to your mission. We specialize in tailoring AI solutions that are both high-impact and user-friendly, perfect for the unique needs of non-profits."
+    },
+    "services": {
+      "title": "Custom AI Services Designed for Impact",
+      "items": [
+        "Strategic AI Planning: Crafting AI strategies that align perfectly with your goals.",
+        "Bespoke AI Solutions: Developing custom tools for data analysis, automation, and more.",
+        "Accessible AI Training: Providing clear, practical training to demystify AI for your team.",
+        "Eco-Conscious AI: Integrating green tech solutions to support your sustainability goals.",
+        "Tech Optimization: Enhancing your existing tools with the power of AI for greater efficiency."
+      ]
+    },
+    "impact": {
+      "title": "Elevating Your Mission with AI",
+      "description": "Our ambition is to see your non-profit thrive through technology. By introducing AI into your operations, we aim to enhance your engagement strategies, streamline your processes, and amplify the good work you do. Let's harness the power of AI to create a lasting impact."
+    },
+    "contact": {
+      "title": "Transform Your Non-Profit with AI",
+      "description": "Curious about how AI can revolutionize your non-profit? Connect with Belenus Consulting. Together, we'll explore innovative solutions to bring your technology into the new era and beyond."
+    }
+  },
+  "v3":{
+    "homePage": {
+      "title": "Tech Empowerment for Environmental Non-Profits",
+      "subtitle": "Belenus Consulting: Nurturing 501(c)(3) Growth with Practical Tech Solutions",
+      "description": "Welcome to Belenus Consulting, where we specialize in guiding environmental 501(c)(3) non-profits through the tech world. Our aim is to provide simple yet effective tech solutions that align with the unique missions of small non-profits. We understand the importance of preserving our environment and are committed to helping you leverage technology to make a greater impact."
+    },
+    "about": {
+      "title": "Merging Environmental Passion with Tech Expertise",
+      "description": "Belenus Consulting is where our deep respect for the environment meets our tech know-how. With years of experience in the tech sector and a special focus on environmental causes, we're uniquely equipped to support 501(c)(3) organizations. Our founder’s journey in tech has always been guided by a passion for sustainability, making us the perfect partner for your non-profit’s technological needs."
+    },
+    "services": {
+      "title": "Customized Tech Services for Environmental Non-Profits",
+      "items": [
+        "Tech Roadmaps for Non-Profits: Creating clear, manageable plans to integrate technology into your operations.",
+        "Eco-Friendly Tech Solutions: Building tech tools that are sustainable and effective.",
+        "Simple Tech Training: Teaching your team tech basics in a way that's easy to understand and implement.",
+        "Operational Efficiency: Streamlining your processes to maximize your environmental impact.",
+        "Digital Strategy and Presence: Enhancing your online presence to spread awareness and engage communities."
+      ]
+    },
+    "impact": {
+      "title": "Boosting Environmental Missions with Smart Tech",
+      "description": "Our mission is to help small 501(c)(3) environmental non-profits amplify their impact through technology. We focus on practical, easy-to-use solutions that make a real difference in your day-to-day operations and help further your environmental goals."
+    },
+    "contact": {
+      "title": "Let’s Grow Together",
+      "description": "Interested in how technology can boost your environmental non-profit? Connect with us at Belenus Consulting. We're here to help you navigate the tech world with solutions that make sense for your mission and values."
+    }
+  }, 
+  "v4":{
+    "homePage": {
+      "title": "AI Innovation for New England's Non-Profits",
+      "subtitle": "Belenus Consulting: Pioneering Tech Solutions in the Heart of New England",
+      "description": "Welcome to Belenus Consulting, where the spirit of New England innovation meets non-profit advancement. We specialize in AI solutions designed to meet the unique challenges and opportunities in the New England area. Our team, steeped in local understanding and global tech expertise, is here to elevate your non-profit into a new era of digital efficiency and community impact."
+    },
+    "about": {
+      "title": "Where New England Tradition Meets Tomorrow’s Tech",
+      "description": "At Belenus Consulting, our roots in New England's rich history of innovation fuel our passion for bringing cutting-edge technology to its non-profits. With a founder who's a tech veteran and a proud New Englander, we understand the local landscape. We’re here to blend this regional insight with the latest in AI, offering solutions that resonate with our community's unique ethos."
+    },
+    "services": {
+      "title": "Tailored AI Services for New England's Non-Profits",
+      "items": [
+        "Localized AI Strategy: Developing AI plans that understand and address New England's specific needs.",
+        "Custom AI Development: Building AI tools that are a perfect fit for New England’s non-profit community.",
+        "Practical AI Training: Offering engaging, region-specific training to demystify AI for your team.",
+        "Eco-Friendly Tech: Embracing New England's environmental values in our AI solutions.",
+        "Enhancing Local Impact: Leveraging AI to help your organization make a deeper impact in New England."
+      ]
+    },
+    "impact": {
+      "title": "Advancing New England's Non-Profits with AI",
+      "description": "Our goal is to see New England’s non-profits thrive with AI. We’re committed to enhancing your local engagement, streamlining operations, and amplifying the great work you do, right here in New England."
+    },
+    "contact": {
+      "title": "Join New England’s AI Movement",
+      "description": "Ready to explore how AI can elevate your non-profit in New England? Get in touch with Belenus Consulting. Let’s innovate together for a brighter, more connected New England."
+    }
+  }
+  
+}

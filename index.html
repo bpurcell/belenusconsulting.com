@@ -39,9 +39,65 @@
             padding: 20px;
         }
     </style>
+    <script>
+        function myFunction() {
+            var pageContent = {
+  "homePage": {
+    "title": "Real-World AI Solutions for Non-Profits",
+    "subtitle": "Belenus Consulting: Bringing AI to Non-Profits in New England",
+    "description": "Welcome to Belenus Consulting! We’re all about using AI to solve real problems for non-profits. Think of us as your guide to making sense of AI and using it to do more good. With our experience in technology and a knack for practical solutions, we’re here to help your non-profit shine brighter."
+  },
+  "about": {
+    "title": "Tech Meets Practicality",
+    "description": "Belenus Consulting is where deep tech know-how meets a drive for positive change. Our founder’s been in the tech game for over 20 years, building successful businesses along the way. But what really drives us is using our tech smarts to help non-profits in New England – especially with AI."
+  },
+  "services": {
+    "title": "Practical AI Services for Your Needs",
+    "items": [
+      "AI Strategy Made Simple: We help you figure out how AI can work for you.",
+      "Custom AI Tools: From data crunching to smart tools, we build what you need.",
+      "Easy AI Training: We teach your team how to use AI without the jargon.",
+      "Eco-Friendly AI: Using AI to boost your green efforts.",
+      "Making Your Tech Smarter with AI: Upgrading your existing tools with AI to get more done."
+    ]
+  },
+  "impact": {
+    "title": "Making a Difference with AI",
+    "description": "Our mission is to get AI working hard for your non-profit. We focus on making things smoother, getting you more engaged with supporters, and improving your services – all through the smart use of AI."
+  },
+  "contact": {
+    "title": "Let's Make Things Happen with AI",
+    "description": "Interested in seeing how AI can up your non-profit game? Get in touch with us at Belenus Consulting. Let’s talk about making tech work for you."
+  }
+}
+
+function loopJSON(jsonObj, depth) {
+    // Base case: stop recursion when depth reaches 0
+    if (depth === 0) {
+        return;
+    }
+
+    // Loop over each key-value pair in the JSON object
+    for (let key in jsonObj) {
+        if (jsonObj.hasOwnProperty(key)) {
+            // Print the key and value
+            console.log(key + ": " + jsonObj[key]);
+
+            // Recursively call the function for nested objects
+            if (typeof jsonObj[key] === "object") {
+                loopJSON(jsonObj[key], depth - 1);
+            }
+        }
+    }
+}
+
+
+            document.getElementById
+        });
+    </script>
 </head>
 
-<body>
+<body onload="myFunction()">
 
     <div class="container">
 
