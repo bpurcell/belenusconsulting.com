@@ -52,7 +52,7 @@
 						} else {
 							
 							document.getElementById(combinedKey).innerHTML = jsonObj[key];
-							$('#'+combinedKey).html(jsonObj[key]);
+							$('#'+combinedKey).html('<p>New HTML content</p>');
 						}
 					}
 				}
