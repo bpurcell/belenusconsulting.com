@@ -1,4 +1,63 @@
 {
+    "v7": {
+        "homePage": {
+          "title": "AI-Powered Action for Environmental Non-Profits",
+          "subtitle": "Belenus Consulting: Turning Vision into Reality for Eco-Warriors",
+          "description": "Step into the world of Belenus Consulting, where we supercharge your environmental mission with cutting-edge AI. We're not just dreamers; we're doers, committed to transforming your bold visions into tangible results. With our hands-on approach and tech expertise, we're geared up to propel your non-profit to new heights of efficiency and impact."
+        },
+        "about": {
+          "title": "Technology Meets Tenacity for Environmental Change",
+          "description": "At Belenus Consulting, we blend relentless drive with technological innovation. Our founder, a tech maven with over two decades of experience, channels a passion for the environment into powerful tech solutions. We're here to be your steadfast ally, turning challenges into triumphs with smart, sustainable technology."
+        },
+        "services": {
+          "title": "Dynamic Tech Solutions for Real-World Impact",
+          "items": [
+            "Strategic AI Execution: Crafting actionable, no-nonsense AI strategies to amplify your cause.",
+            "Custom Tech Creation: Building robust, eco-centric tools tailored to your specific needs.",
+            "Practical AI Empowerment: Equipping your team with the skills to wield AI confidently and effectively.",
+            "Streamlined Operations: Injecting tech efficiency into your processes for greater environmental impact.",
+            "Innovative Digital Outreach: Expanding your influence online with compelling digital narratives."
+          ]
+        },
+        "impact": {
+          "title": "Elevating Environmental Missions with Determined Tech Innovation",
+          "description": "Our mission at Belenus Consulting is to harness the power of AI to catalyze real change for your non-profit. We're all about converting aspirations into actions, ensuring every technological advancement we make together leaves a lasting imprint on the environment."
+        },
+        "contact": {
+          "title": "Unleash the Power of AI for Your Cause",
+          "description": "Ready to ramp up your environmental efforts with AI? Get in touch with Belenus Consulting. Let’s roll up our sleeves and make tech work wonders for your mission."
+        }
+      }
+,      
+    "v6":{
+        "homePage": {
+          "title": "Illuminating the Path for Eco-Conscious Non-Profits",
+          "subtitle": "Belenus Consulting: Weaving Technology with Environmental Stewardship",
+          "description": "Embark on an exhilarating journey with Belenus Consulting, a sanctuary where technological mastery meets the heart of environmental advocacy. We are more than just consultants; we are dream weavers, dedicated to empowering 501(c)(3) non-profits with bespoke tech solutions that resonate with the rhythm of nature. Our mission is to enhance your noble quest with the brilliance of technology, nurturing your vision into a flourishing reality."
+        },
+        "about": {
+          "title": "A Symphony of Technology and Environmental Harmony",
+          "description": "In the realm of Belenus Consulting, we cherish the delicate dance of nature and digital innovation. Our founder, a sage in the tech arena, has been a vanguard for over two decades, intertwining a profound commitment to environmental preservation with technological prowess. We are alchemists, transforming your environmental passion into a digital renaissance, ensuring your mission blooms amidst the technological revolution."
+        },
+        "services": {
+          "title": "Crafting Enchanting Tech Solutions for Nature’s Guardians",
+          "items": [
+            "Visionary Tech Roadmaps: Charting a course through the digital cosmos, tailored to elevate your environmental crusade.",
+            "Sustainable Tech Alchemy: Conjuring eco-friendly digital tools that harmonize with Mother Earth’s whispers.",
+            "Enlightening Tech Training: Unveiling the mysteries of technology with clarity and grace, empowering your team to harness its power.",
+            "Operational Elegance: Orchestrating your processes with the finesse of technology, enhancing your efficiency in nature’s embrace.",
+            "Digital Advocacy Artistry: Sculpting your online presence to captivate hearts and minds, spreading the seeds of environmental awareness."
+          ]
+        },
+        "impact": {
+          "title": "Cultivating a Greener Future with the Magic of Tech",
+          "description": "At Belenus Consulting, our aspiration is to be the wind beneath the wings of environmental non-profits. We endeavor to magnify your impact with the spell of smart technology, transforming each challenge into a stepping stone towards a verdant, thriving planet."
+        },
+        "contact": {
+          "title": "Embark on a Tech Odyssey with Us",
+          "description": "Are you ready to witness how the art of technology can elevate your environmental mission to new heights? Reach out to the maestros at Belenus Consulting. Together, let us weave a tapestry of technological marvels that resonate with your eco-conscious spirit."
+        }
+      },
   "v1": {
     "homePage": {
       "title": "Real-World AI Solutions for Non-Profits",

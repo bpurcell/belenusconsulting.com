@@ -651,6 +651,14 @@
 								}
 
 								body.is-preload & {
+									
+			#floatingbelenus {
+				position: fixed;
+				left: 200px;
+				top: 0;
+				width: 150px;
+				z-index: 1;
+			}
 									> header {
 										transform: none;
 

@@ -2999,6 +2999,13 @@ body.is-preload #wrapper > section.intro > .content {
   #wrapper > section.intro > header > * {
     transition: transform 1s ease, opacity 1s ease;
   }
+  body.is-preload #wrapper > section.intro #floatingbelenus {
+    position: fixed;
+    left: 200px;
+    top: 0;
+    width: 150px;
+    z-index: 1;
+  }
   body.is-preload #wrapper > section.intro > header {
     transform: none;
   }

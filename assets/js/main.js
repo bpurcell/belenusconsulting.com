@@ -30,6 +30,7 @@
 				}, 100);
 				// Use the data here
 				var pageContent = data;
+				
 				function loopJSONandPrint(jsonObj, depth, parentKey = "") {
 					// Base case: stop recursion when depth reaches 0
 					if (depth === 0) {
@@ -50,9 +51,8 @@
 							loopJSONandPrint(jsonObj[key], depth - 1, combinedKey);
 		
 						} else {
-							
 							document.getElementById(combinedKey).innerHTML = jsonObj[key];
-							$('#'+combinedKey).html('<p>New HTML content</p>');
+							//$('#'+combinedKey).html(jsonObj[key]);
 						}
 					}
 				}
@@ -62,9 +62,13 @@
 				const version = urlParams.get('version');
 				if (version) {
 					pageContent = data[version];
-					loopJSONandPrint(pageContent)
-					console.log(pageContent)
+				} else {
+					let randodata = Math.floor(Math.random() * Object.keys(data).length)
+					console.log(Object.keys(data).length, randodata)
+					pageContent = data[Object.keys(data)[randodata]];
 				}
+				console.log(pageContent.homePage.title)
+				loopJSONandPrint(pageContent)
 			})
 			.catch(error => {
 				console.error('Error:', error);
