@@ -1,124 +1,191 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belenus Consulting - Coming Soon</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
-    <style>
-        body {
-            font-family: 'Playfair Display', serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #FBE7BA;
-            margin: 0;
-            padding: 0;
-            color: #000;
-            text-align: center;
-        }
-
-        .container {
-            padding-top: 100px;
-        }
-
-        h1 {
-            color: #5C6BC0;
-        }
-
-        p {
-            color: #666;
-            margin: 20px 0;
-        }
-
-        .footer {
-            background: #f8f8f8;
-            padding: 20px;
-        }
-    </style>
-    <script>
-        function myFunction() {
-            var pageContent = {
-  "homePage": {
-    "title": "Real-World AI Solutions for Non-Profits",
-    "subtitle": "Belenus Consulting: Bringing AI to Non-Profits in New England",
-    "description": "Welcome to Belenus Consulting! We’re all about using AI to solve real problems for non-profits. Think of us as your guide to making sense of AI and using it to do more good. With our experience in technology and a knack for practical solutions, we’re here to help your non-profit shine brighter."
-  },
-  "about": {
-    "title": "Tech Meets Practicality",
-    "description": "Belenus Consulting is where deep tech know-how meets a drive for positive change. Our founder’s been in the tech game for over 20 years, building successful businesses along the way. But what really drives us is using our tech smarts to help non-profits in New England – especially with AI."
-  },
-  "services": {
-    "title": "Practical AI Services for Your Needs",
-    "items": [
-      "AI Strategy Made Simple: We help you figure out how AI can work for you.",
-      "Custom AI Tools: From data crunching to smart tools, we build what you need.",
-      "Easy AI Training: We teach your team how to use AI without the jargon.",
-      "Eco-Friendly AI: Using AI to boost your green efforts.",
-      "Making Your Tech Smarter with AI: Upgrading your existing tools with AI to get more done."
-    ]
-  },
-  "impact": {
-    "title": "Making a Difference with AI",
-    "description": "Our mission is to get AI working hard for your non-profit. We focus on making things smoother, getting you more engaged with supporters, and improving your services – all through the smart use of AI."
-  },
-  "contact": {
-    "title": "Let's Make Things Happen with AI",
-    "description": "Interested in seeing how AI can up your non-profit game? Get in touch with us at Belenus Consulting. Let’s talk about making tech work for you."
-  }
-}
-
-function loopJSON(jsonObj, depth) {
-    // Base case: stop recursion when depth reaches 0
-    if (depth === 0) {
-        return;
-    }
-
-    // Loop over each key-value pair in the JSON object
-    for (let key in jsonObj) {
-        if (jsonObj.hasOwnProperty(key)) {
-            // Print the key and value
-            console.log(key + ": " + jsonObj[key]);
-
-            // Recursively call the function for nested objects
-            if (typeof jsonObj[key] === "object") {
-                loopJSON(jsonObj[key], depth - 1);
-            }
-        }
-    }
-}
-
-
-            document.getElementById
-        });
-    </script>
+	<title>Belenus Consulting</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<link rel="stylesheet" href="assets/sass/main.css" />
 </head>
 
-<body onload="myFunction()">
+<body class="is-preload">
+	
+	
+	<img id="floatingbelenus" src="assets/belenus2.svg" alt="" />
+	<div id="wrapper">
+		<section class="intro">
+			<header>
+				<h1 id="logoimage">Belenus Consulting</h1>
+				<p id="homePage-title">Illuminating Pathways with Technology</p>
+				<ul class="actions">
+					<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+				</ul>
+			</header>
+			<div class="content">
+				<span class="image fill" data-position="center"><img src="./assets/brainstorming.jpg" alt="" /></span>
+			</div>
+		</section>
 
-    <div class="container">
+		<section id="first">
+			<header>
+				<h2 id="homePage-subtitle">Belenus Consulting: Enlightening Non-Profits in New England</h2>
+			</header>
+			<div class="content">
+				<p id="homePage-description">Welcome to Belenus Consulting, where technology meets transformation.
+					Inspired by the ancient wisdom
+					of Belenus, the Celtic sun god, we illuminate the path for non-profits, guiding them towards
+					innovative solutions that resonate with their mission and values. Our expertise in technology,
+					rooted in a rich entrepreneurial background, is your beacon to a brighter, more impactful future.
+				</p>
+				<span class="image main"><img src="./assets/impressionist.png" alt="" /></span>
+			</div>
+		</section>
 
-        <header>
-            <a href="https://belenusconsulting.com">
-                <img src="/assets/belenus.svg" alt="Belenus Logo" width="200">
+		<section>
+			<header>
+				<h2>About</h2>
+			</header>
+			<div class="content">
+				<h2 id="about-title">Harnessing the Power of Light and Knowledge</h2>
+				<p id="about-description">
+					Belenus Consulting emerges from a deep-seated passion for both technology and positive social
+					change. With over two decades of experience in tech entrepreneurship, including leading a
+					sustainable supply chain tracing company valued at over $100 million, our founder brings a wealth of
+					knowledge and a proven track record. Inspired by personal involvement in non-profit work, we are
+					uniquely positioned to understand and address the specific challenges faced by charitable
+					organizations in New England.</p>
 
-                <h1>Belenus <span class="consulting">Consulting</span></h1>
+			</div>
+		</section>
 
-            </a>
-        </header>
-        <p>Enlightening Non-Profits in New England</p>
-        <p>Our website is under construction and will be launching soon. Stay tuned for innovative solutions that
-            illuminate the path for non-profits.</p>
-        <p>For inquiries, please contact <a
-                href="mailto:contact@belenusconsulting.com">contact@belenusconsulting.com</a></p>
-    </div>
+		<section>
+			<header>
+				<h2>Services</h2>
+			</header>
+			<div class="content">
+				<p><strong id="services-title">Strategic Tech Empowerment for Non-Profits</strong></p>
 
-    <div class="footer">
-        <p>&copy; 2024 Belenus Consulting</p>
-    </div>
+				<ul class="feature-icons">
+					<li class="icon solid fa-laptop" id="services-items-0">Custom Technology Strategies<span>Aligning
+							your mission with
+							innovative tech solutions.</span></li>
+					<li class="icon solid fa-bolt" id="services-items-1">Software and Web Development<span>Tailoring
+							digital tools to fit your
+							unique needs.</span></li>
+					<li class="icon solid fa-signal" id="services-items-2">Training and Support<span>Ensuring seamless
+							integration and
+							adoption of new technologies.</span></li>
+					<li class="icon solid fa-cog" id="services-items-3">Sustainability and Tech
+						Integration<span>Leveraging our founder's
+							experience for your environmental and sustainability initiatives.</span></li>
+					<li class="icon solid fa-map-marker-alt" id="services-items-4">Optimizing Existing
+						Tech<span>Enhancing your current tools
+							for greater efficiency and impact.</span></li>
+					<li class="icon solid fa-code">Nibh amet venenatis</li>
+				</ul>
+
+
+			</div>
+		</section>
+
+		<!-- Section -->
+		<section>
+			<header>
+				<h2>Impact
+				</h2>
+			</header>
+			<div class="content">
+				<h2 id="impact-title">Shining a Light on Possibilities</h2>
+				<p id="impact-description">
+					At Belenus Consulting, our goal is to enable non-profits to harness the power of technology
+					effectively. Whether it's streamlining operations, improving donor engagement, or enhancing service
+					delivery, our tailored approach ensures that technology serves your mission, not the other way
+					around.</p>
+				<ul class="actions">
+					<li><a href="#" class="button primary large">Get Started</a></li>
+					<li><a href="#" class="button large">Learn More</a></li>
+				</ul>
+
+				<div class="gallery">
+					<a href="assets/woodspainting.png" class="landscape"><img src="assets/woodspainting.png"
+							alt="" /></a>
+					<a href="assets/abstractmeeting.png"><img src="assets/abstractmeeting.png" alt="" /></a>
+					<a href="assets/autumnal.png"><img src="assets/autumnal.png" alt="" /></a>
+				</div>
+			</div>
+		</section>
+		<section>
+			<header>
+				<h2 id="contact-title">Begin Your Journey Towards Enlightened Solutions</h2>
+			</header>
+			<div class="content">
+				<p id="contact-description">Interested in exploring how technology can amplify your non-profit's impact?
+					Connect with us at
+					Belenus Consulting, and let's discuss how we can bring clarity and innovation to your mission.</p>
+					<form method="post" action="https://forms.un-static.com/forms/7160d19009eda635810de2e4dc62432fca005137">
+					<div class="fields">
+						<div class="field half">
+							<input type="text" name="name" id="name" placeholder="Name" />
+						</div>
+						<div class="field half">
+							<input type="email" name="email" id="email" placeholder="Email" />
+						</div>
+						<div class="field">
+							<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+						</div>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" class="button primary" /></li>
+					</ul>
+				</form>
+			</div>
+			<footer>
+				<ul class="items">
+					<li>
+						<h3>Email</h3>
+						<a href="mailto:contact@belenusconsulting.com">contact@belenusconsulting.com</a>
+					</li>
+					<li>
+						<h3>Phone</h3>
+						<a href="#">(857) 210-8041
+						</a>
+					</li>
+					<li>
+						<h3>Address</h3>
+						<span>Coming soon....</span>
+					</li>
+					<li>
+						<h3>Elsewhere</h3>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+							</li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
+							</li>
+							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a>
+							</li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
+						</ul>
+					</li>
+				</ul>
+			</footer>
+		</section>
+
+		<!-- Copyright -->
+		<div class="copyright">&copy; Belenus Consulting. All rights reserved.
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
 

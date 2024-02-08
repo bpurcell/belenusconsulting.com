@@ -7,7 +7,14 @@ async function main(theme) {
         const completion = await openai.chat.completions.create({
             messages: [
                 {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": "`Generate a website copy for Belenus Consulting focusing on ${theme}. Include sections for Home, About, Services, Impact, and Contact.` Return as structured json object"}
+                {"role": "user", "content": `Given the article below, create a JSON object which enumerates a set of 5 child objects.                       
+                Each child object has a property named "q" and a property named "a".
+                For each child object assign to the property named "q" a question which has its answer in the article 
+                and to the property named "a" a short answer to this question.
+                The resulting JSON object should be in this format: [{"q":"string","a":"string"}].\n\n
+                The article:\n
+                ${textToUse}\n\n
+                The JSON object:\n\n`}
             ],
             model: "gpt-4-turbo-preview",
         });
